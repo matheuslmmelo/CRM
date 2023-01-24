@@ -1,6 +1,6 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 
-<!DOCTYPE html>
+<html>
 
 <head>
 	<title>List Customers</title>
@@ -18,6 +18,11 @@
 	</div>
 
 	<div id="container">
+	
+		<input type="button" value="Add Customer" 
+		onclick="window.location.href='showFormForAdd'; return false;"
+		class="add-button"/>
+	
 	
 		<div id="content">
 		
