@@ -32,6 +32,7 @@
 			<form:input path="email"/> <br><br>
 			<input type="submit" value="Save" class="add-button"/>
 			
+			<form:hidden path="id"/>
 				<%-- <table>
 				
 					<tbody>
