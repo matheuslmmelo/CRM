@@ -24,15 +24,21 @@
 			<h3>Save Customer</h3>
 			
 			<form:form action="saveCustomer" modelAttribute="customer" method="POST">
-			<label>First Name:</label> 
-			<form:input path="firstName"/> <br><br>
-			<label>Last Name:</label> 
-			<form:input path="lastName"/> <br><br>
-			<label>Email:</label> 
-			<form:input path="email"/> <br><br>
-			<input type="submit" value="Save" class="add-button"/>
 			
-			<form:hidden path="id"/>
+				<form:hidden path="id"/>
+				
+				<label>First Name:</label> 
+				<form:input path="firstName"/> <br><br>
+				<label>Last Name:</label> 
+				<form:input path="lastName"/> <br><br>
+				<label>Email:</label> 
+				<form:input path="email"/> <br><br>
+				
+				<input type="submit" value="Save" class="add-button"/>
+				
+			</form:form>
+			
+			
 				<%-- <table>
 				
 					<tbody>
@@ -61,7 +67,7 @@
 				
 				</table> --%>
 			
-			</form:form>
+			
 			
 			<div style="clear; both;"></div>
 			

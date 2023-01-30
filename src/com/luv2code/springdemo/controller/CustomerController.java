@@ -44,7 +44,7 @@ public class CustomerController {
 	
 	@GetMapping("/showFormForUpdate")
 	public String showFormForUpdate(@RequestParam("customerId") int id, Model model) {
-		Customer customer = customerService.getCostumer(id);
+		Customer customer = customerService.getCustomer(id);
 		
 		model.addAttribute("customer",customer);
 		//form load: call getters methods
